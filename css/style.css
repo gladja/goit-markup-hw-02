@@ -2,11 +2,18 @@
     --font-title-color: #2E2F42;
     --font-color: #434455;
     --color-hover: #4D5AE5;
+    --colot-fon-white: #fff;
+    --color-fon: #F4F4FD;
 }
 
 /*util text-decoration: none*/
 .decoration {
     text-decoration: none;
+}
+
+/*util none point*/
+.list {
+    list-style: none;
 }
 
 /*global font, size, color */
@@ -26,11 +33,11 @@ body {
     font-size: 18px;
     line-height: 1.17em;
     text-transform: uppercase;
-    color: var(--font-title-color);
+    color: var(--color-hover);
 }
 
 .logo span {
-    color: var(--color-hover);
+    color: var( --font-title-color);
 }
 
 /*nav*/
@@ -46,10 +53,54 @@ body {
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--font-color);
+    color: var(--color-hover);
 }
 
 .site-adr a:hover,
 .site-nav a:focus {
     color: var(--color-hover);
+}
+
+/*hero*/
+.hero {
+    background: var(--font-title-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1em;
+    color: var(--colot-fon-white);
+}
+
+/*section all*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1em;
+    color: var(--font-title-color);
+}
+
+/*h3 about for us, out team and our works*/
+.about-title,
+.team-title,
+.works-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    color: var(--font-title-color);
+}
+
+/*out team*/
+.background {
+    background: var(--color-fon);
+}
+
+/*footer*/
+.footer {
+    background: var(--font-title-color);
+}
+
+.footer p, .footer span {
+    color: var(--color-fon);
 }
