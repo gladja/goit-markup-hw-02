@@ -68,6 +68,7 @@ body {
 /*global for p*/
 .text {
     font-size: 16px;
+    color: var(--font-color);
 }
 
 /*logo*/
@@ -122,13 +123,15 @@ body {
     text-align: center;
 }
 
+/*button color page studio*/
 .btn {
     color: var(--colot-fon-white);
     background: var(--color-hover);
 }
 
+/*button color page portfolio*/
 .btn-color {
-    color: var(--color-hover);
+    color: var(--color-logo);
     background: var(--color-fon);
 }
 
