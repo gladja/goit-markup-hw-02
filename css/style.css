@@ -1,0 +1,55 @@
+:root {
+    --font-title-color: #2E2F42;
+    --font-color: #434455;
+    --color-hover: #4D5AE5;
+}
+
+/*util text-decoration: none*/
+.decoration {
+    text-decoration: none;
+}
+
+/*global font, size, color */
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--font-color);
+}
+
+/*logo*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17em;
+    text-transform: uppercase;
+    color: var(--font-title-color);
+}
+
+.logo span {
+    color: var(--color-hover);
+}
+
+/*nav*/
+.site-nav a {
+    font-weight: 500;
+    color: var(--font-title-color);
+}
+
+.site-adr a {
+    font-style: normal;
+    color: var(--font-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--font-color);
+}
+
+.site-adr a:hover,
+.site-nav a:focus {
+    color: var(--color-hover);
+}
