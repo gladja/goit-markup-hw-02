@@ -1,27 +1,25 @@
 :root {
     --font-title-color: #2E2F42;
     --font-color: #434455;
-    --color-hover: #4D5AE5;
+    --color-hover: #404bbf;
     --colot-fon-white: #fff;
     --color-fon: #F4F4FD;
 }
 
-/*button without color*/
-.btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
 /*util text-decoration: none*/
-.decoration {
+.link {
     text-decoration: none;
 }
 
 /*util none point*/
 .list {
     list-style: none;
+}
+
+/*util letter-spacing*/
+.space {
+    letter-spacing: 0.02em;
+
 }
 
 /*global font, size, color */
@@ -31,8 +29,44 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
-    letter-spacing: 0.02em;
     color: var(--font-color);
+    letter-spacing: 0.02em;
+
+}
+
+/*global button without color*/
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif
+}
+
+/*global section title all*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+    color: var(--font-title-color);
+    text-align: center;
+    text-transform: capitalize
+}
+
+/*global h3 about for us, out team, our works*/
+.about-title,
+.team-title,
+.works-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    color: var(--font-title-color);
+}
+
+/*global for p*/
+.text {
+    font-size: 16px;
 }
 
 /*logo*/
@@ -51,18 +85,19 @@ body {
 }
 
 /*nav*/
-.site-nav a {
+.site-nav .item {
     font-weight: 500;
     color: var(--font-title-color);
 }
 
-.site-adr a {
+.site-adr .item {
     color: var(--font-color);
+    font-style: normal;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--font-color);
+    color: var(--color-hover);
 }
 
 .site-adr a:hover,
@@ -94,25 +129,6 @@ body {
 }
 
 
-/*section all*/
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11em;
-    color: var(--font-title-color);
-    text-align: center;
-    text-transform: capitalize
-}
-
-/*h3 about for us, out team and our works*/
-.about-title,
-.team-title,
-.works-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2em;
-    color: var(--font-title-color);
-}
 
 /*out team*/
 .background {
@@ -124,6 +140,6 @@ body {
     background: var(--font-title-color);
 }
 
-.footer p, .footer span {
+.footer .footer-text {
     color: var(--color-fon);
 }
