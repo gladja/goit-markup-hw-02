@@ -6,6 +6,14 @@
     --color-fon: #F4F4FD;
 }
 
+/*button without color*/
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
 /*util text-decoration: none*/
 .decoration {
     text-decoration: none;
@@ -23,6 +31,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
+    letter-spacing: 0.02em;
     color: var(--font-color);
 }
 
@@ -32,6 +41,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-hover);
 }
@@ -47,13 +57,12 @@ body {
 }
 
 .site-adr a {
-    font-style: normal;
     color: var(--font-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--color-hover);
+    color: var(--font-color);
 }
 
 .site-adr a:hover,
@@ -69,16 +78,30 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1em;
+    line-height: 1.07em;
     color: var(--colot-fon-white);
+    text-align: center;
 }
+
+.btn {
+    color: var(--colot-fon-white);
+    background: var(--color-hover);
+}
+
+.btn-color {
+    color: var(--color-hover);
+    background: var(--color-fon);
+}
+
 
 /*section all*/
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1em;
+    line-height: 1.11em;
     color: var(--font-title-color);
+    text-align: center;
+    text-transform: capitalize
 }
 
 /*h3 about for us, out team and our works*/
