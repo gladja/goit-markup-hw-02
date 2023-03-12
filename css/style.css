@@ -1,7 +1,8 @@
 :root {
     --font-title-color: #2E2F42;
     --font-color: #434455;
-    --color-hover: #4d5ae5;
+    --color-logo: #4d5ae5;
+    --color-hover: #404bbf;
     --colot-fon-white: #fff;
     --color-fon: #F4F4FD;
 }
@@ -77,7 +78,7 @@ body {
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-hover);
+    color: var(--color-logo);
 }
 
 .logo span {
@@ -90,15 +91,17 @@ body {
     color: var(--font-title-color);
 }
 
+.adr {
+    font-style: normal;
+}
+
 .site-adr a {
     color: var(--font-color);
-    font-style: normal;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    /*color: var(--color-hover);*/
-    color: #404bbf;
+    color: var(--color-hover);
 }
 
 .site-adr a:hover,
