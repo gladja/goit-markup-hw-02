@@ -1,7 +1,7 @@
 :root {
     --font-title-color: #2E2F42;
     --font-color: #434455;
-    --color-hover: #404bbf;
+    --color-hover: #4d5ae5;
     --colot-fon-white: #fff;
     --color-fon: #F4F4FD;
 }
@@ -85,19 +85,20 @@ body {
 }
 
 /*nav*/
-.site-nav .item {
+.site-nav a {
     font-weight: 500;
     color: var(--font-title-color);
 }
 
-.site-adr .item {
+.site-adr a {
     color: var(--font-color);
     font-style: normal;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--color-hover);
+    /*color: var(--color-hover);*/
+    color: #404bbf;
 }
 
 .site-adr a:hover,
