@@ -5,6 +5,7 @@
     --color-hover: #404bbf;
     --colot-fon-white: #fff;
     --color-fon: #F4F4FD;
+    --color-btn-hover: #404BBF;
 }
 
 /*util text-decoration: none*/
@@ -124,18 +125,26 @@ body {
 }
 
 /*button color page studio*/
-.btn {
+.btn-primary {
     color: var(--colot-fon-white);
-    background: var(--color-hover);
+    background: var(--color-logo);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: var(--color-btn-hover);
 }
 
 /*button color page portfolio*/
-.btn-color {
+.btn-second {
     color: var(--color-logo);
     background: var(--color-fon);
 }
 
-
+.btn-second:hover,
+.btn-second:focus {
+    background: var(--color-btn-hover);
+}
 
 /*out team*/
 .background {
