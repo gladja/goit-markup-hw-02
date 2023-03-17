@@ -144,6 +144,7 @@ body {
 .btn-second:hover,
 .btn-second:focus {
     background: var(--color-btn-hover);
+    color: var(--colot-fon-white);
 }
 
 /*out team*/
